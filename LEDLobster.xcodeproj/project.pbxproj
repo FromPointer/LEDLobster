@@ -14,6 +14,19 @@
 		405C306C1B4B91D8000C9CDC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 405C306B1B4B91D8000C9CDC /* Images.xcassets */; };
 		405C306F1B4B91D8000C9CDC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 405C306D1B4B91D8000C9CDC /* LaunchScreen.xib */; };
 		405C307B1B4B91D8000C9CDC /* LEDLobsterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 405C307A1B4B91D8000C9CDC /* LEDLobsterTests.m */; };
+		405C308C1B4B9507000C9CDC /* LEDSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 405C308B1B4B9507000C9CDC /* LEDSettingViewController.m */; };
+		405C308F1B4B9E9B000C9CDC /* LEDSettingCommonTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 405C308E1B4B9E9B000C9CDC /* LEDSettingCommonTableViewCell.m */; };
+		405C30921B4B9F5B000C9CDC /* LEDSettingPortraitTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 405C30911B4B9F5B000C9CDC /* LEDSettingPortraitTableViewCell.m */; };
+		405C309B1B4BA367000C9CDC /* UIView+BYXStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 405C30961B4BA367000C9CDC /* UIView+BYXStyle.m */; };
+		405C309C1B4BA367000C9CDC /* UIView+BYXTimerEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 405C30981B4BA367000C9CDC /* UIView+BYXTimerEvent.m */; };
+		405C309D1B4BA367000C9CDC /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 405C309A1B4BA367000C9CDC /* UIView+Frame.m */; };
+		405C30A21B4BA5A8000C9CDC /* LEDSettingLocalJsonModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 405C30A11B4BA5A8000C9CDC /* LEDSettingLocalJsonModel.m */; };
+		405C30B01B4BA6BA000C9CDC /* LEDBaseLocalJsonModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 405C30A91B4BA6BA000C9CDC /* LEDBaseLocalJsonModel.m */; };
+		405C30B11B4BA6BA000C9CDC /* LEDBaseRequestJsonModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 405C30AC1B4BA6BA000C9CDC /* LEDBaseRequestJsonModel.m */; };
+		405C30B21B4BA6BA000C9CDC /* LEDBaseResponseJsonModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 405C30AF1B4BA6BA000C9CDC /* LEDBaseResponseJsonModel.m */; };
+		405C30B81B4BB257000C9CDC /* LEDSettingRequsetJsonModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 405C30B51B4BB257000C9CDC /* LEDSettingRequsetJsonModel.m */; };
+		405C30B91B4BB257000C9CDC /* LEDSettingResponseJsonModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 405C30B71B4BB257000C9CDC /* LEDSettingResponseJsonModel.m */; };
+		95087092C300FE335C07AB3F /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F072FF908D8E53FAAC293F0 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +53,33 @@
 		405C30741B4B91D8000C9CDC /* LEDLobsterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LEDLobsterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		405C30791B4B91D8000C9CDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		405C307A1B4B91D8000C9CDC /* LEDLobsterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LEDLobsterTests.m; sourceTree = "<group>"; };
+		405C308A1B4B9507000C9CDC /* LEDSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LEDSettingViewController.h; sourceTree = "<group>"; };
+		405C308B1B4B9507000C9CDC /* LEDSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LEDSettingViewController.m; sourceTree = "<group>"; };
+		405C308D1B4B9E9B000C9CDC /* LEDSettingCommonTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LEDSettingCommonTableViewCell.h; sourceTree = "<group>"; };
+		405C308E1B4B9E9B000C9CDC /* LEDSettingCommonTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LEDSettingCommonTableViewCell.m; sourceTree = "<group>"; };
+		405C30901B4B9F5B000C9CDC /* LEDSettingPortraitTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LEDSettingPortraitTableViewCell.h; sourceTree = "<group>"; };
+		405C30911B4B9F5B000C9CDC /* LEDSettingPortraitTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LEDSettingPortraitTableViewCell.m; sourceTree = "<group>"; };
+		405C30951B4BA367000C9CDC /* UIView+BYXStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+BYXStyle.h"; sourceTree = "<group>"; };
+		405C30961B4BA367000C9CDC /* UIView+BYXStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+BYXStyle.m"; sourceTree = "<group>"; };
+		405C30971B4BA367000C9CDC /* UIView+BYXTimerEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+BYXTimerEvent.h"; sourceTree = "<group>"; };
+		405C30981B4BA367000C9CDC /* UIView+BYXTimerEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+BYXTimerEvent.m"; sourceTree = "<group>"; };
+		405C30991B4BA367000C9CDC /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		405C309A1B4BA367000C9CDC /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		405C30A01B4BA5A8000C9CDC /* LEDSettingLocalJsonModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LEDSettingLocalJsonModel.h; sourceTree = "<group>"; };
+		405C30A11B4BA5A8000C9CDC /* LEDSettingLocalJsonModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LEDSettingLocalJsonModel.m; sourceTree = "<group>"; };
+		405C30A81B4BA6BA000C9CDC /* LEDBaseLocalJsonModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LEDBaseLocalJsonModel.h; sourceTree = "<group>"; };
+		405C30A91B4BA6BA000C9CDC /* LEDBaseLocalJsonModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LEDBaseLocalJsonModel.m; sourceTree = "<group>"; };
+		405C30AB1B4BA6BA000C9CDC /* LEDBaseRequestJsonModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LEDBaseRequestJsonModel.h; sourceTree = "<group>"; };
+		405C30AC1B4BA6BA000C9CDC /* LEDBaseRequestJsonModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LEDBaseRequestJsonModel.m; sourceTree = "<group>"; };
+		405C30AE1B4BA6BA000C9CDC /* LEDBaseResponseJsonModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LEDBaseResponseJsonModel.h; sourceTree = "<group>"; };
+		405C30AF1B4BA6BA000C9CDC /* LEDBaseResponseJsonModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LEDBaseResponseJsonModel.m; sourceTree = "<group>"; };
+		405C30B41B4BB257000C9CDC /* LEDSettingRequsetJsonModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LEDSettingRequsetJsonModel.h; sourceTree = "<group>"; };
+		405C30B51B4BB257000C9CDC /* LEDSettingRequsetJsonModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LEDSettingRequsetJsonModel.m; sourceTree = "<group>"; };
+		405C30B61B4BB257000C9CDC /* LEDSettingResponseJsonModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LEDSettingResponseJsonModel.h; sourceTree = "<group>"; };
+		405C30B71B4BB257000C9CDC /* LEDSettingResponseJsonModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LEDSettingResponseJsonModel.m; sourceTree = "<group>"; };
+		6F072FF908D8E53FAAC293F0 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		85C3A724645C60BBF974A6BA /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		E7BE2A51385E24EF4C063D88 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95087092C300FE335C07AB3F /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,12 +101,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		09AF121964AAA739969D0A3A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E7BE2A51385E24EF4C063D88 /* Pods.debug.xcconfig */,
+				85C3A724645C60BBF974A6BA /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		1E400735D9DB1DB13537AC1E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6F072FF908D8E53FAAC293F0 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		405C30521B4B91D8000C9CDC = {
 			isa = PBXGroup;
 			children = (
+				405C30931B4BA30B000C9CDC /* Utility */,
 				405C305D1B4B91D8000C9CDC /* LEDLobster */,
 				405C30771B4B91D8000C9CDC /* LEDLobsterTests */,
 				405C305C1B4B91D8000C9CDC /* Products */,
+				09AF121964AAA739969D0A3A /* Pods */,
+				1E400735D9DB1DB13537AC1E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,6 +142,8 @@
 		405C305D1B4B91D8000C9CDC /* LEDLobster */ = {
 			isa = PBXGroup;
 			children = (
+				405C30841B4B93D0000C9CDC /* Home */,
+				405C30851B4B93D0000C9CDC /* MyCenter */,
 				405C30621B4B91D8000C9CDC /* AppDelegate.h */,
 				405C30631B4B91D8000C9CDC /* AppDelegate.m */,
 				405C30651B4B91D8000C9CDC /* ViewController.h */,
@@ -119,6 +182,140 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		405C30841B4B93D0000C9CDC /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		405C30851B4B93D0000C9CDC /* MyCenter */ = {
+			isa = PBXGroup;
+			children = (
+				405C309F1B4BA57F000C9CDC /* JsonModel */,
+				405C30861B4B94CF000C9CDC /* Cell */,
+				405C30871B4B94CF000C9CDC /* View */,
+				405C30881B4B94CF000C9CDC /* ViewController */,
+			);
+			path = MyCenter;
+			sourceTree = "<group>";
+		};
+		405C30861B4B94CF000C9CDC /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				405C308D1B4B9E9B000C9CDC /* LEDSettingCommonTableViewCell.h */,
+				405C30901B4B9F5B000C9CDC /* LEDSettingPortraitTableViewCell.h */,
+				405C30911B4B9F5B000C9CDC /* LEDSettingPortraitTableViewCell.m */,
+				405C308E1B4B9E9B000C9CDC /* LEDSettingCommonTableViewCell.m */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		405C30871B4B94CF000C9CDC /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		405C30881B4B94CF000C9CDC /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				405C30891B4B94CF000C9CDC /* tableViewDelegate */,
+				405C308A1B4B9507000C9CDC /* LEDSettingViewController.h */,
+				405C308B1B4B9507000C9CDC /* LEDSettingViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		405C30891B4B94CF000C9CDC /* tableViewDelegate */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = tableViewDelegate;
+			sourceTree = "<group>";
+		};
+		405C30931B4BA30B000C9CDC /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				405C30A31B4BA616000C9CDC /* JsonModel */,
+				405C309E1B4BA384000C9CDC /* Settings */,
+				405C30941B4BA367000C9CDC /* UIView+Utility */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		405C30941B4BA367000C9CDC /* UIView+Utility */ = {
+			isa = PBXGroup;
+			children = (
+				405C30951B4BA367000C9CDC /* UIView+BYXStyle.h */,
+				405C30961B4BA367000C9CDC /* UIView+BYXStyle.m */,
+				405C30971B4BA367000C9CDC /* UIView+BYXTimerEvent.h */,
+				405C30981B4BA367000C9CDC /* UIView+BYXTimerEvent.m */,
+				405C30991B4BA367000C9CDC /* UIView+Frame.h */,
+				405C309A1B4BA367000C9CDC /* UIView+Frame.m */,
+			);
+			path = "UIView+Utility";
+			sourceTree = "<group>";
+		};
+		405C309E1B4BA384000C9CDC /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Settings;
+			path = settings;
+			sourceTree = "<group>";
+		};
+		405C309F1B4BA57F000C9CDC /* JsonModel */ = {
+			isa = PBXGroup;
+			children = (
+				405C30A01B4BA5A8000C9CDC /* LEDSettingLocalJsonModel.h */,
+				405C30A11B4BA5A8000C9CDC /* LEDSettingLocalJsonModel.m */,
+				405C30B41B4BB257000C9CDC /* LEDSettingRequsetJsonModel.h */,
+				405C30B51B4BB257000C9CDC /* LEDSettingRequsetJsonModel.m */,
+				405C30B61B4BB257000C9CDC /* LEDSettingResponseJsonModel.h */,
+				405C30B71B4BB257000C9CDC /* LEDSettingResponseJsonModel.m */,
+			);
+			path = JsonModel;
+			sourceTree = "<group>";
+		};
+		405C30A31B4BA616000C9CDC /* JsonModel */ = {
+			isa = PBXGroup;
+			children = (
+				405C30A71B4BA6BA000C9CDC /* Local */,
+				405C30AA1B4BA6BA000C9CDC /* Request */,
+				405C30AD1B4BA6BA000C9CDC /* Response */,
+			);
+			path = JsonModel;
+			sourceTree = "<group>";
+		};
+		405C30A71B4BA6BA000C9CDC /* Local */ = {
+			isa = PBXGroup;
+			children = (
+				405C30A81B4BA6BA000C9CDC /* LEDBaseLocalJsonModel.h */,
+				405C30A91B4BA6BA000C9CDC /* LEDBaseLocalJsonModel.m */,
+			);
+			path = Local;
+			sourceTree = "<group>";
+		};
+		405C30AA1B4BA6BA000C9CDC /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				405C30AB1B4BA6BA000C9CDC /* LEDBaseRequestJsonModel.h */,
+				405C30AC1B4BA6BA000C9CDC /* LEDBaseRequestJsonModel.m */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		405C30AD1B4BA6BA000C9CDC /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				405C30AE1B4BA6BA000C9CDC /* LEDBaseResponseJsonModel.h */,
+				405C30AF1B4BA6BA000C9CDC /* LEDBaseResponseJsonModel.m */,
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -126,9 +323,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 405C307E1B4B91D8000C9CDC /* Build configuration list for PBXNativeTarget "LEDLobster" */;
 			buildPhases = (
+				AD67840687532FE47F2B7D54 /* Check Pods Manifest.lock */,
 				405C30571B4B91D8000C9CDC /* Sources */,
 				405C30581B4B91D8000C9CDC /* Frameworks */,
 				405C30591B4B91D8000C9CDC /* Resources */,
+				51BFE7224523FA6A47F04148 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -214,14 +413,59 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		51BFE7224523FA6A47F04148 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AD67840687532FE47F2B7D54 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		405C30571B4B91D8000C9CDC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				405C30B11B4BA6BA000C9CDC /* LEDBaseRequestJsonModel.m in Sources */,
 				405C30671B4B91D8000C9CDC /* ViewController.m in Sources */,
 				405C30641B4B91D8000C9CDC /* AppDelegate.m in Sources */,
+				405C30A21B4BA5A8000C9CDC /* LEDSettingLocalJsonModel.m in Sources */,
+				405C30B81B4BB257000C9CDC /* LEDSettingRequsetJsonModel.m in Sources */,
 				405C30611B4B91D8000C9CDC /* main.m in Sources */,
+				405C30B91B4BB257000C9CDC /* LEDSettingResponseJsonModel.m in Sources */,
+				405C309D1B4BA367000C9CDC /* UIView+Frame.m in Sources */,
+				405C309C1B4BA367000C9CDC /* UIView+BYXTimerEvent.m in Sources */,
+				405C308F1B4B9E9B000C9CDC /* LEDSettingCommonTableViewCell.m in Sources */,
+				405C309B1B4BA367000C9CDC /* UIView+BYXStyle.m in Sources */,
+				405C30B01B4BA6BA000C9CDC /* LEDBaseLocalJsonModel.m in Sources */,
+				405C308C1B4B9507000C9CDC /* LEDSettingViewController.m in Sources */,
+				405C30921B4B9F5B000C9CDC /* LEDSettingPortraitTableViewCell.m in Sources */,
+				405C30B21B4BA6BA000C9CDC /* LEDBaseResponseJsonModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,21 +589,27 @@
 		};
 		405C307F1B4B91D8000C9CDC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7BE2A51385E24EF4C063D88 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = LEDLobster/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		405C30801B4B91D8000C9CDC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85C3A724645C60BBF974A6BA /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = LEDLobster/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -416,6 +666,7 @@
 				405C30801B4B91D8000C9CDC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		405C30811B4B91D8000C9CDC /* Build configuration list for PBXNativeTarget "LEDLobsterTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +675,7 @@
 				405C30831B4B91D8000C9CDC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
