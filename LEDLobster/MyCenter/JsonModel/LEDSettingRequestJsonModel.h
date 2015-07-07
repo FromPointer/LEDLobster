@@ -1,5 +1,5 @@
 //
-//  LEDSettingRequsetJsonModel.h
+//  LEDSettingRequestJsonModel.h
 //  LEDLobster
 //
 //  Created by liuzuopeng01 on 15/7/7.
@@ -10,7 +10,7 @@
 #import "LEDBaseRequestJsonModel.h"
 
 
-@interface LEDSettingRequsetJsonModel: LEDBaseRequestJsonModel
+@interface LEDSettingRequestJsonModel: LEDBaseRequestJsonModel
 
 
 @end

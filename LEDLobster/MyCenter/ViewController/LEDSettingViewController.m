@@ -21,14 +21,22 @@ UITableViewDataSource
 
 // base data
 @property (nonatomic, strong) LEDSettingLocalJsonModel *sLocalJsonModel;
+@property (nonatomic, assign) LEDSettingCellType        settingCellType;
+
 @end
 
 @implementation LEDSettingViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+
+    [self requestForNetworkCache];
+    [self requestForNetworkResponse];
+    
     // Do any additional setup after loading the view.
+    [self setupTableView];
 }
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
@@ -42,9 +50,6 @@ UITableViewDataSource
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
         [self initBaseData];
-        
-        [self requestForNetworkCache];
-        [self requestForNetworkResponse]
     }
     return self;
 }
@@ -53,9 +58,12 @@ UITableViewDataSource
 - (void)setupTableView {
     self.tableView.delegate = self;
     self.tableView.dataSource = self;
+    self.tableView.scrollEnabled = NO;
+    self.tableView.tableFooterView = [[UIView alloc] init];
 }
 
 - (void)initBaseData {
+    self.settingCellType = kLEDSettingCellTypeForPortrait;
     self.sLocalJsonModel = [[LEDSettingLocalJsonModel alloc] init];
     
     for (NSUInteger i = 0; i < kLEDSettingCellTypeCount; i++) {
@@ -64,7 +72,7 @@ UITableViewDataSource
                 _sLocalJsonModel.portraitString = @"liuzp";
                 break;
             case kLEDSettingCellTypeForProfile:
-                _sLocalJsonModel.portraitString = @"个人资料";
+                _sLocalJsonModel.profileString = @"个人资料";
                 break;
                 
             case kLEDSettingCellTypeForHelper:
@@ -95,13 +103,14 @@ UITableViewDataSource
 
 - (void)responseForSettingWithJsonModel:(LEDSettingResponseJsonModel *)jsonModel
                             isFromCache:(BOOL)isFromCache {
-    
-    [self updateVisibleDataWithJsonModel:jsonModel];
+    [self updateVisibleViewsWithJsonModel:jsonModel];
 }
 
 
-- (void)updateVisibleDataWithJsonModel:(LEDSettingLocalJsonModel *)jsonModel {
+- (void)updateVisibleViewsWithJsonModel:(LEDSettingResponseJsonModel *)jsonModel {
+    self.sLocalJsonModel = (LEDSettingLocalJsonModel *)jsonModel;
     
+    [self.tableView reloadData];
 }
 
 
@@ -110,6 +119,23 @@ UITableViewDataSource
 
 #pragma mark - data source for tableView
 
+- (NSInteger)numberOfSectionsInTableView:(nonnull UITableView *)tableView {
+    return 1;
+}
+
+
+- (NSInteger)tableView:(nonnull UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+    return kLEDSettingCellTypeCount;
+}
+
+
+- (nonnull UITableViewCell *)tableView:(nonnull UITableView *)tableView cellForRowAtIndexPath:(nonnull NSIndexPath *)indexPath {
+    self.settingCellType = (LEDSettingCellType)indexPath.row;
+    
+    UITableViewCell *cell = nil;
+    
+    return cell;
+}
 
 /*
 #pragma mark - Navigation

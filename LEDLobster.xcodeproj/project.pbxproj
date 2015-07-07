@@ -24,7 +24,7 @@
 		405C30B01B4BA6BA000C9CDC /* LEDBaseLocalJsonModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 405C30A91B4BA6BA000C9CDC /* LEDBaseLocalJsonModel.m */; };
 		405C30B11B4BA6BA000C9CDC /* LEDBaseRequestJsonModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 405C30AC1B4BA6BA000C9CDC /* LEDBaseRequestJsonModel.m */; };
 		405C30B21B4BA6BA000C9CDC /* LEDBaseResponseJsonModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 405C30AF1B4BA6BA000C9CDC /* LEDBaseResponseJsonModel.m */; };
-		405C30B81B4BB257000C9CDC /* LEDSettingRequsetJsonModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 405C30B51B4BB257000C9CDC /* LEDSettingRequsetJsonModel.m */; };
+		405C30B81B4BB257000C9CDC /* LEDSettingRequestJsonModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 405C30B51B4BB257000C9CDC /* LEDSettingRequestJsonModel.m */; };
 		405C30B91B4BB257000C9CDC /* LEDSettingResponseJsonModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 405C30B71B4BB257000C9CDC /* LEDSettingResponseJsonModel.m */; };
 		95087092C300FE335C07AB3F /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F072FF908D8E53FAAC293F0 /* libPods.a */; };
 /* End PBXBuildFile section */
@@ -73,8 +73,8 @@
 		405C30AC1B4BA6BA000C9CDC /* LEDBaseRequestJsonModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LEDBaseRequestJsonModel.m; sourceTree = "<group>"; };
 		405C30AE1B4BA6BA000C9CDC /* LEDBaseResponseJsonModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LEDBaseResponseJsonModel.h; sourceTree = "<group>"; };
 		405C30AF1B4BA6BA000C9CDC /* LEDBaseResponseJsonModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LEDBaseResponseJsonModel.m; sourceTree = "<group>"; };
-		405C30B41B4BB257000C9CDC /* LEDSettingRequsetJsonModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LEDSettingRequsetJsonModel.h; sourceTree = "<group>"; };
-		405C30B51B4BB257000C9CDC /* LEDSettingRequsetJsonModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LEDSettingRequsetJsonModel.m; sourceTree = "<group>"; };
+		405C30B41B4BB257000C9CDC /* LEDSettingRequestJsonModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LEDSettingRequestJsonModel.h; sourceTree = "<group>"; };
+		405C30B51B4BB257000C9CDC /* LEDSettingRequestJsonModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LEDSettingRequestJsonModel.m; sourceTree = "<group>"; };
 		405C30B61B4BB257000C9CDC /* LEDSettingResponseJsonModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LEDSettingResponseJsonModel.h; sourceTree = "<group>"; };
 		405C30B71B4BB257000C9CDC /* LEDSettingResponseJsonModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LEDSettingResponseJsonModel.m; sourceTree = "<group>"; };
 		6F072FF908D8E53FAAC293F0 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -271,8 +271,8 @@
 			children = (
 				405C30A01B4BA5A8000C9CDC /* LEDSettingLocalJsonModel.h */,
 				405C30A11B4BA5A8000C9CDC /* LEDSettingLocalJsonModel.m */,
-				405C30B41B4BB257000C9CDC /* LEDSettingRequsetJsonModel.h */,
-				405C30B51B4BB257000C9CDC /* LEDSettingRequsetJsonModel.m */,
+				405C30B41B4BB257000C9CDC /* LEDSettingRequestJsonModel.h */,
+				405C30B51B4BB257000C9CDC /* LEDSettingRequestJsonModel.m */,
 				405C30B61B4BB257000C9CDC /* LEDSettingResponseJsonModel.h */,
 				405C30B71B4BB257000C9CDC /* LEDSettingResponseJsonModel.m */,
 			);
@@ -455,7 +455,7 @@
 				405C30671B4B91D8000C9CDC /* ViewController.m in Sources */,
 				405C30641B4B91D8000C9CDC /* AppDelegate.m in Sources */,
 				405C30A21B4BA5A8000C9CDC /* LEDSettingLocalJsonModel.m in Sources */,
-				405C30B81B4BB257000C9CDC /* LEDSettingRequsetJsonModel.m in Sources */,
+				405C30B81B4BB257000C9CDC /* LEDSettingRequestJsonModel.m in Sources */,
 				405C30611B4B91D8000C9CDC /* main.m in Sources */,
 				405C30B91B4BB257000C9CDC /* LEDSettingResponseJsonModel.m in Sources */,
 				405C309D1B4BA367000C9CDC /* UIView+Frame.m in Sources */,

@@ -12,7 +12,7 @@
 
 @interface LEDSettingResponseJsonModel : LEDBaseResponseJsonModel
 
-@property(nonatomic, strong) NSString *profileString;
+@property(nonatomic, strong) NSString *portraitString;
 @property(nonatomic, strong) NSString *nickNameString;
 
 @end
